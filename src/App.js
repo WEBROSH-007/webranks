@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/navbar';
 import HomePage from './components/home';
 import WebDevelopmentServices from './components/webdevservices';
+import SEOServicesPage from './components/seopgae';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/webdevservices" element={<WebDevelopmentServices />} />
+        <Route path="/seoservices" element={<SEOServicesPage />} />
       </Routes>
     </Router>
   );

@@ -9,7 +9,7 @@ const Navbar = () => {
       hasDropdown: true,
       dropdownItems: [
         { name: 'Web Development', href: '/webdevservices' },
-        { name: 'SEO Services', href: '/services/seo' },
+        { name: 'SEO Services', href: '/seoservices' },
         { name: 'Content Marketing', href: '/services/content-marketing' },
         { name: 'Social Media', href: '/services/social-media' },
         { name: 'PPC Advertising', href: '/services/ppc' },
